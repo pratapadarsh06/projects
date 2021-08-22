@@ -1,0 +1,83 @@
+1. The way you solved a problem in the project.
+2. Your role in the project.
+3. Your imagination or creativeness in the concept of the project.
+
+
+1. The way you solved a problem in the project.
+Problem:- I want to build a AI project for my computer to understand human facial emotions(Happy, angry, sad etc) or feelings. 
+
+Solution:-
+I have build a Convolution Neural Network (CNN) architecture, it is the best architecture for image recognition and classification. We train the model on FER2013 dataset for Emotion recognition from images. This model is capable of recognizing seven basic emotions like Happy, sad, surprised  etc 
+
+Import packages 
+
+pandas :-
+pandas is used for data analysis, we used pandas to read the fer2013.csv file and divide our data into training and testing data.
+
+numpy :-
+numpy provides a multidimensional array object, we converted our data into 2dimensional array object.
+
+keras:-
+Keras is an Open Source Neural Network library written in Python that runs on top of Tensorflow.
+
+cv2 :-
+we have import OpenCV  package for image processing. 
+
+
+
+
+
+
+2. Your role in the project.
+My role is AI software developer in this project.
+
+The three main components of Emotion Detection are as follows:
+A.Image Preprocessing.
+B.Feature Learning.
+C.Classification.
+D.Compiling and Training the Model 
+E.Displaying the persons emotions on the computer screen.
+ 
+A.Image Preprocessing:-
+we have processed our images with pandas and numpy in a 2d array
+
+B.Feature Learning:-
+
+we have created a CNN architecture for differentiating images from one another. 
+There are different parameters that need to be considered for building this model. 
+
+1.Activation function:- Different Activation functions are used, such as Rectified Linear Unit (ReLU) and Softmax functions. Activation functions are used to get the resulting values in the range of 0 to 1 or -1 to 1 depending on the function. 
+
+2.Pooling layers:- Pooling layers are used to reduce the number of parameters when the images are too large. Downsampling reduces the dimensionality of each map but it retains the important features.
+
+3.Max Pooling:- Max Pooling returns the maximum value from the portion of the image
+
+C.Classification:-
+
+1.Flatten:- 
+Flatten is the function that converts the pooled feature map to a single column that is passed to the fully connected layer.
+
+2.Dense:- Dense adds the fully connected layer to the neural network.
+
+3.Dropout:-
+some number of layer outputs are randomly ignored or dropped out to prevent overfitting.
+
+
+D.Compiling and Training the Model:-
+
+a.Loss function:-
+I have used crossentropy loss function when there are tow or more label classes. we expect labels to be provided in a one hot representaion. 
+
+b.optimizer:-
+   I have used Stochastic Gradient Descent (SGD) in my project.
+The use of SGD in the neural network setting is motivated by the high cost of running back propagation over the full training set.
+
+c.epochs:-
+
+The epochs used in the model are 50. 
+epochs indicates the number of passes of the entire training dataset.
+ 
+
+E.Displaying the persons emotions on the computer screen:-
+Now let’s load the model and also load a classifier that i have used to detect the face of a person in-front of the camera. I have used the haarcascade_frontalface_default classifier. Haar Cascade is a machine learning object detection algorithm used to identify objects in an image or video.
+ 
