@@ -1,0 +1,72 @@
+1. The way you solved a problem in the project.
+2. Your role in the project.
+3. Your imagination or creativeness in the concept of the project.
+
+
+
+
+1. The way you solved a problem in the project.
+Answer:-
+
+problem:-
+In our daily life there are lots of things happen and to spread awareness I wanted to build a simple News-Website.
+
+solution:-
+I have build a New-Website using Node.js, Express, Ejs and WP Rest API + newsApi 
+i have used Node.js beacuse It's very light, scalable and open-source language platform which makes it very easy to build apps even at the enterprise level also.
+
+
+Node.js
+Node. js developed as a server-side JavaScript run-time environment.. Node. js is extensively used for back-end development, Node. js can be used in both the frontend(in styling and also have various packages to create beautiful UI) and backend(Networks and APIs, Database Integration) of applications. 
+
+Express
+Express is the most popular Node web framework, 
+Express provides methods to specify what function is called for a particular HTTP like GET, POST, SET, etc. and URL pattern ("Route"), and methods to specify what template ("view") engine is used, where template files are located, and what template to use to render a response.
+
+EJS
+Embedded Javascript Templating is a templating engine used by Node.js. Template engine helps to create an HTML template with minimal code.
+
+WP Rest API + newsApi
+  
+The WordPress REST API provides an interface for applications to interact with your WordPress site by sending and receiving data as JSON (JavaScript Object Notation) objects. 
+
+
+
+
+2. Your role in the project.
+Answer
+
+My role is Software developer in this project.
+I have created this project as incremental model of SDLC(software devlopment life cycle).
+My work in the project was to know the 
+A.requirements:- Search and displaying the News Articles.
+
+B.Design & development:-
+Module 1 HOME page:-
+I have created a home page nice UI, I have set the view engine to access the static template files, with the help of AXIOS i have send HTTP request by using get method with WP Rest API I got access to latest news in JSON format and on the Home page I have render the data inside a get method. User can click any news by clicking the articles.
+
+Module 2 Search Article Page:-
+I have created a Search article page with a nice UI and with a Post method i have read the user data inside HTML and with the help of AXIOS i have send HTTP request using get method with WP Rest API I got access to searched news. And finally user can see and read the news he clicked     
+
+C.Testing 
+i have done many kinds of testing like  Performance Testing, System Testing, Alpha Testing,  Beta Testing etc to approve check my project validity.
+
+D.Implementaion:-
+when I found any Bugs after testing phase then I am correcting those in Implementation phase.
+ 
+
+incremantal model
+A. Requirements
+B. Design & development
+C. Testing
+D. Implementation
+
+Increment this 4 steps until our project is completed 
+
+
+
+
+
+3. Your imagination or creativeness in the concept of the project.
+    In the project i am not storing any data and also i have used WP-Rest API that makes my work lot easier beacuse searching latest news and then post them is quiet difficult.
+
