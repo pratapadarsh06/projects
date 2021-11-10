@@ -19,13 +19,15 @@
            </div>
      </header>
      <div class="wrapper">
+          <a href="/">&larr;- Back</a>
           <div class="news">
-               <% if(articles != null){%>
-               <% articles.forEach(function(article, index) { %> 
-               <a href="/article/<%-article.id %>" class="news_card">
-                     <img src="<%-article.thumbnail_url%>">
-                     <h2><%- article.title.rendered %></h2>
-                      <p><%- article.excerpt.rendered %></p>    
+               <% if(articles.articles != null){%>
+               
+               <% articles.articles.forEach(function(article, index) { %> 
+               <a href="<%-article.url %>" class="news_card">
+                     <img src="<%-article.urlToImage%>">
+                     <h2><%- article.title%></h2>
+                      <p><%- article.description %></p>    
                </a>  
                <% }) %>
                <% }else{%>
