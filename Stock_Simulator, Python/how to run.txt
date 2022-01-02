@@ -1,0 +1,10 @@
+1. > cd streamlit tut
+
+2. > virtualenv streamlit 
+
+3. > streamlit tut\streamlitenv\Scripts\activate(2 times if not activate in first time)
+
+4. >pip install streamlit
+
+5. streamlit run app.py
+
